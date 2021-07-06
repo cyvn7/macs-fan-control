@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.6" Author="Wojciech Szczerbowski, updated based on v1.4.0 by Radek Pytlik">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.9" Author="Cyan, based on translation by Wojciech Szczerbowski and Radek Pytlik">
     <MainWindow>
         <staticSensorsListHeader>Czujniki temperatury:</staticSensorsListHeader>
         <listColumnFan>Wentylator</listColumnFan>
@@ -7,7 +7,7 @@
         <listColumnControl>Regulacja</listColumnControl>
         <listColumnSensor>Czujnik</listColumnSensor>
         <listColumnSensorValue>Wartość</listColumnSensorValue>
-        <listSeparatorDrives>Dysk HDD:</listSeparatorDrives>
+        <listSeparatorDrives>Dyski twarde:</listSeparatorDrives>
         <popupMenuItemControl>Zmiana regulacji...</popupMenuItemControl>
         <popupMenuItemReset>Przywróć automatyczną kontrolę</popupMenuItemReset>
         <fanControlAutomatic>Auto</fanControlAutomatic>
@@ -23,11 +23,11 @@
         <buttonAbout>O nas...</buttonAbout>
         <messageHelperToolInstall>Macs Fan Control wymaga instalacji pomocniczego narzędzia w celu kontrolowania pracy wiatraka. Możesz pominąć ten fragment, jeśli zamierzasz jedynie monitorować czujniki wiatraka i temperatury.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control wymaga instalacji zaktualizowanej wersji narzędzia pomocniczego w celu kontrolowania pracy wiatraka.</messageHelperToolUpgrade>
-        <messageFanControlNotAvailableTitle>Sterowanie wentylatorem niedostępne.</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailableTitle>Sterowanie wentylatorem jest niedostępne.</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control nie mógł połączyć się z aplikacją pomocniczą, w celu umożliwienia kontroli wentylatora jak również dostosowania prędkości.\n\nUpewnij się, aby wprowadzić hasło administratora, kiedy jesteś o nie pytany.\n\nWciąż możesz używać tej aplikacji tylko w trybie monitorowania.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Tryb monitorowania</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Nie wykryto wiatraków. Spróbuj użyć komendy [reset SMC](https://support.apple.com/pl-pl/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Ten komputer nie posiada żadnych wiatraków i jest chłodzony pasywnie</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Regulacja wentylatora %1</title>
@@ -55,15 +55,15 @@
         <labelPresetName>Nazwa ustawienia:</labelPresetName>
         <savePresetTitle>Zapisz własne ustawienie</savePresetTitle>
         <editPresetTitle>Edytuj ustawioną nazwę</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Nowy...</presetCreateNew>
+        <presetCreateNewTitle>Stwórz nowe ustawienie</presetCreateNewTitle>
+        <presetCreateNewMessage>Wszystkie wiatraki są obecnie sterowane przez system. \n\nZmień zarządzanie na Własne dla conajmniej jednego wiatraka, aby być w stanie stworzyć nowe ustawienie.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Zmień zarządzanie dla przynajmniej jednego wiatraka, ponieważ obecnie wszystkie dmuchają pełną mocą dopasowywując się do ustawienia '%1'.</presetCreateNewMessage2>
+        <presetCreateNewButton>Własne ustawienie dla wiatraka '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Zaktualizuj do Macs Fan Control Pro</title>
-        <proInfo1>Wersja Pro jest w stanie utworzyć i zapisać własne ustawienia pracy wiatraka, tak więc możesz szybko przełączać się pomiędzy ustawianiami w zależności od działań wykonywanych na komputerze.</proInfo1>
+        <proInfo1>Wersja Pro jest w stanie utworzyć i zapisać własne ustawienia pracy wiatraka, dzięki czemu możesz szybko przełączać się pomiędzy ustawianiami w zależności od działań wykonywanych na komputerze.</proInfo1>
         <proInfo2>Jeśli zakupiłeś już aplikację, to naciśnij poniższy przycisk o treści 'Wstaw licencję'.</proInfo2>
         <buttonPurchase>Kup</buttonPurchase>
         <buttonEnterLicense>Wstaw licencję</buttonEnterLicense>
@@ -94,33 +94,33 @@
         <itemFollowTwitter>Idź @crystalidea</itemFollowTwitter>
         <itemExit>Wyjście</itemExit>
         <itemExitMac>Zakończ Macs Fan Control</itemExitMac>
-        <itemSensorBased>Czujnik na bazie</itemSensorBased>
+        <itemSensorBased>Na bazie czujnika</itemSensorBased>
         <itemUpgradeToPro>Zaktualizuj do wersji Pro</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>Ustawienia</title>
         <TabGeneral>Ogólne</TabGeneral>
-        <tabTrayIcon>Ikona w zasobniku systemowym</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
-        <tabTrayIconMac>Wyświetl informację na pasku</tabTrayIconMac>
+        <tabTrayIcon>Ikona na pasku</tabTrayIcon>
+        <tabSensors>Czujniki</tabSensors>
+        <tabTrayIconMac>Wyświetlaj informację na pasku</tabTrayIconMac>
         <tabDiagnostics>Diagnostyka</tabDiagnostics>
         <staticLanguage>Język:</staticLanguage>
-        <checkSystemStart>Uruchom automatycznie wraz z systemem jako zminimalizowany</checkSystemStart>
-        <checkUpdatesOnStartup>Sprawdź aktualizacje przy starcie aplikacji</checkUpdatesOnStartup>
+        <checkSystemStart>Uruchamiaj program przy starcie systemu jako zminimalizowany (rekomendowane)</checkSystemStart>
+        <checkUpdatesOnStartup>Sprawdzaj aktualizacje przy starcie aplikacji</checkUpdatesOnStartup>
         <checkFahrenheit>Użyj skali temperatury Fahrenheita</checkFahrenheit>
         <checkPrecise>Precyzyjne wyświetlanie temperatury (np. 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Sczytuj temperatury z</labelSensors>
+        <checkExternalGPU>Stacje eGPU podłączone przez Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Podłączone dyski SATA</checkSATADrives>
+        <checkNVMeDrives>Podłączone dyski NVMe</checkNVMeDrives>
         <staticSensor>Czujnik:</staticSensor>
         <staticFan>Wentylator:</staticFan>
         <staticIcon>Ikona:</staticIcon>
-        <comboIconOptionShow>Pokaż</comboIconOptionShow>
-        <comboIconOptionShowBW>Pokaż (czarno-białe)</comboIconOptionShowBW>
+        <comboIconOptionShow>Kolorowe</comboIconOptionShow>
+        <comboIconOptionShowBW>Monochromatyczne</comboIconOptionShowBW>
         <comboOptionNone>Brak</comboOptionNone>
         <checkTwoLines>Pokaż odczyt wentylatora/czujnika w dwóch liniach,\naby zaoszczędzić trochę miejsca</checkTwoLines>
-        <staticCelsiusOnlyOnWindows>(Celsjusz tylko)</staticCelsiusOnlyOnWindows>
+        <staticCelsiusOnlyOnWindows>(tylko Celsjusz)</staticCelsiusOnlyOnWindows>
         <checkLog>Rejestr zdarzeń (wymagany restart)</checkLog>
         <browseLog>Przeglądaj</browseLog>
         <buttonCopyTechInfo>Skopiuj informacje techniczne</buttonCopyTechInfo>
@@ -135,9 +135,9 @@
     </AboutDialog>
     <RateMeDialog>
         <message>Oceń aplikację na MacUpdate</message>
-        <informativeText>Jeśli lubisz korzystać z %1, czy mogłabyś poświęcić chwilę, aby go ocenić? To nie zajmie więcej niż minutę. Dziękujemy za wsparcie!</informativeText>
+        <informativeText>Jeśli lubisz korzystać z %1, bylibyśmy bardzo wdzięczni za ocenę. To nie zajmie więcej niż minutę. Dziękujemy za wsparcie!</informativeText>
         <buttonRate>Oceń na MacUpdate</buttonRate>
-        <buttonNoThanks>Nie dziękuję</buttonNoThanks>
+        <buttonNoThanks>Nie, dziękuję</buttonNoThanks>
         <checkDontShowAgain>Nie pokazuj ponownie tej wiadomości</checkDontShowAgain>
     </RateMeDialog>
     <Common>
@@ -168,7 +168,7 @@
             <UpdateProgressStatusDownloading>Pobieranie aktualizacji...</UpdateProgressStatusDownloading>
             <UpdateProgressExtract>Wyodrębnianie aktualizacji...</UpdateProgressExtract>
             <UpdateProgressStatusReady>Gotowy do instalacji</UpdateProgressStatusReady>
-            <UpdateProgressSize>%1 of %2</UpdateProgressSize>
+            <UpdateProgressSize>%1 z %2</UpdateProgressSize>
             <UpdateProgressB>B</UpdateProgressB>
             <UpdateProgressKB>KB</UpdateProgressKB>
             <UpdateProgressMB>MB</UpdateProgressMB>
